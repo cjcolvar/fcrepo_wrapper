@@ -32,3 +32,11 @@ workflows:
           name: "ruby2-6"
           ruby_version: "2.6.5"
           bundler_version: '1.7'
+      - build:
+          name: "ruby2-5"
+          ruby_version: "2.5.7"
+          bundler_version: '1.7'
+      - build:
+          name: "ruby2-4"
+          ruby_version: "2.4.9"
+          bundler_version: '1.7'
